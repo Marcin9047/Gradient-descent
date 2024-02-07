@@ -85,7 +85,7 @@ def gradient_descent(f, params: Solver_Params) -> Solver_Results:
     return results
 
 
-# TESTOWANIE
+# TESTING
 
 
 def test_case(f, x_0, Learning_params):
@@ -113,36 +113,3 @@ def find_best(f, x_0, min, max, imax, error):
         time1.append(stop - start)
         results.append(res.i_max())
     plt.plot(params, time1)
-
-
-# f1 = partial(f, alfa=1)
-# x_0 = Points([3.0, 1.0, 2.0, 2.0, 2.0, 1.0, 2.0, 2.0, 3.7, 2.1])
-# imax = 50
-# error = 1e-14
-
-# params = Learning_params(1, imax, error)
-
-# params2 = Learning_params(0.02, imax, error)
-
-# # params3 = Learning_params(0.0095, imax, error)
-
-# # params4 = Learning_params(0.0099, imax, error)
-
-# test_case(f1, x_0, params)
-# test_case(f1, x_0, params2)
-# test_case(f100, x_0, params3)
-# test_case(f100, x_0, params4)
-# find_best(f100, x_0, 0.0092, 0.01)
-
-# plt.title("Gradient descent -> alfa = 100")
-
-# plt.xlabel("Learning rate")
-# plt.ylabel("Time")
-
-# plt.ylim(0, 100000000)
-# plt.yticks(np.arange(0, 1000, 100))
-# plt.xticks(np.arange(0, 50, 5))
-# plt.yscale("log")
-# plt.legend()
-# plt.grid()
-# plt.show()
