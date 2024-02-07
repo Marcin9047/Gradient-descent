@@ -24,14 +24,14 @@ and tested with:
 ## Results
 
 ### First function:
-![F1 result](./f1%20lrtotime.png)
-![F1 result](./f1_fxodi.png)
-![F1 result](./ratef1.png)
+![F1 result](./images/f1%20lrtotime.png)
+![F1 result](./images/f1_fxodi.png)
+![F1 result](./images/ratef1.png)
 ### Second function:
-![F10 result](./f10_timetolr.png)
-![F10 result](./f10_fxodi.png)
-![F10 result](./ratef10.png)
+![F10 result](./images/f10_timetolr.png)
+![F10 result](./images/f10_fxodi.png)
+![F10 result](./images/ratef10.png)
 ### Third function:
-![F100 result](./f100_timetolr.png)
-![F100 result](./f100_fxodi.png)
-![F100 result](./ratef100.png)
+![F100 result](./images/f100_timetolr.png)
+![F100 result](./images/f100_fxodi.png)
+![F100 result](./images/ratef100.png)
